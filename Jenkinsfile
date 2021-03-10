@@ -8,7 +8,7 @@ pipeline {
 
          steps {
 
-            git 'https://github.com/<your-username>/simple-app.git'
+            git 'https://github.com/amitebers/jenkins.git'
 
             bat "mvn -Dmaven.test.failure.ignore=true clean package"
 

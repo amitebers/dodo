@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
 @Component
 public class GreetingHandler {
 
-	//Sample Handler class
+	//Sample Handler class//
   public Mono<ServerResponse> hello(ServerRequest request) {
     return ServerResponse.ok().contentType(MediaType.TEXT_PLAIN)
       .body(BodyInserters.fromValue("Hello, Spring!"));
